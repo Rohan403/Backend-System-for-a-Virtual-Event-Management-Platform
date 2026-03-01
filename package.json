@@ -1,0 +1,28 @@
+{
+  "name": "virtual-event-management-backend",
+  "version": "1.0.0",
+  "description": "Backend system for virtual event management platform using in-memory data",
+  "main": "backend api.js",
+  "scripts": {
+    "start": "node \"backend api.js\"",
+    "dev": "nodemon \"backend api.js\""
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "bcrypt",
+    "events",
+    "in-memory"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
